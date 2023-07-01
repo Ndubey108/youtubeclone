@@ -70,7 +70,7 @@ function getViews(n){
 
 
 function navigateToVideo(videoId){
-    let path = `./script2.js`;
+    let path = `./index2.js`;
     if(videoId){
     document.cookie = `video_id=${videoId}; path=${path}`;
      let linkItem = document.createElement("a");
