@@ -23,7 +23,7 @@ function onLoadScript() {
   }
 }
 
-const statsContainer = document.getElementsByClassName("video-details")[0] ;
+const statsContainer = document.getElementsByClassName("video-details") ;
 
 async function extractVideoDetails(videoId){ 
     let endpoint = `https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&videoId=${videoId}&key=${apiKey}`;
